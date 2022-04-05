@@ -1,0 +1,59 @@
+.t-in-action {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+.t-in-action__title {
+    font-family: "CalisMTBol", "Calisto MT", serif;
+    font-size: 36px;
+    line-height: 1.2em;
+    color: #010101;
+    font-weight: 400;
+    margin: 0 0 21px;
+    padding: 0;
+}
+
+.t-simple-photos {
+    overflow: hidden;
+    width: 100%;
+}
+
+.t-simple-photos__wrapper {
+    margin: 0 -15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 0;
+    line-height: 0;
+}
+
+.t-simple-photos__item {
+    width: 20%;
+    padding: 0 15px 20px;
+}
+
+.tutors .t-in-action {
+    margin-top: 36px;
+}
+
+@media screen and (max-width: 767px) {
+	.t-in-action {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .t-simple-photos__item {
+        width: 33.33%;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 20px;
+    }
+
+    .t-simple-photos__wrapper {
+        margin-left: -5px;
+        margin-right: -5px;
+    }
+}
